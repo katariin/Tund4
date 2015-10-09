@@ -3,7 +3,7 @@
        //ühenduse loomiseks kasuta
 	   require_once("../config.php");
        $database = "if15_jekavor";
-       $mysqli = new mysqli($servername, $username, $password, $database);
+       $mysqli = new mysqli($server_name, $server_username, $server_password, $database);
 
   // muuutujad errorite jaoks
 	$email_error = "";
